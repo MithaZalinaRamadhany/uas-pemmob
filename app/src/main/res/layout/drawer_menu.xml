@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="310dp"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F9C4D6">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:src="@drawable/fotomitha"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="40dp"
+        android:text="Mitha Zalina Ramadhany"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Bengkalis, 31 Oktober 2003"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="mithazalina@gmail.com"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="0821 7809 4949"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="JL. H.R. Soebrantas"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="RPL 5A"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="Rekayasa Perangkat Lunak"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="Teknik Informatika"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp" />
+
+    <TextView
+        android:text="6304211343"
+        android:textSize="18sp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="100dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card View"
+        android:onClick="openListViewPage" />
+</LinearLayout>
