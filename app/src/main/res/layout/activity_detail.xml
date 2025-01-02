@@ -38,11 +38,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:weightSum="1">
+
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="138dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/lokasi"
-                        android:layout_weight="0.2"/>
+                        android:layout_weight="0.2"
+                        android:text="@string/lokasi" />
                     <TextView
                         android:id="@+id/tv_lokasi"
                         android:layout_width="wrap_content"
